@@ -1,0 +1,38 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.page-content{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.navbar{
+    background: #4161AB;
+    height: 55px;
+    * {
+        vertical-align: top;
+    }
+}
+
+.links{
+    margin-top: 10px;
+    display: inline-block;
+    color:white;
+    * {
+        vertical-align: middle;
+    }
+    .yellow {
+        color: #FFDE00;
+    }
+    &.right{
+        float:right;
+        margin-right: 10px;
+    }
+}
